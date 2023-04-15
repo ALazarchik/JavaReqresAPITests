@@ -1,0 +1,19 @@
+API tests for Reqres.in service
+
+1. Using the service https://reqres.in, get the list of all users
+- Validate response against schema
+- Make sure that the users' avatars' paths include users' ids
+- Make sure that users' email addresses end with "@reqres.in"
+
+2. Using the service https://reqres.in, test user registration possibility.
+- Make sure successful registration is possible
+- Make sure that registration fails if password is not provided
+- check responses' status codes
+
+3. Using the service https://reqres.in, make sure that LIST<RESOURCE> request returns data that is sorted by years
+
+4. Using the service https://reqres.in, make sure that 404 status code is returned when trying to find non-existing user
+
+5. Using the service https://reqres.in, delete second user and check response's status code
+
+6. Using the service https://reqres.in, update user's data and compare the date of update with the current date on local machine (compare date and time without seconds)
